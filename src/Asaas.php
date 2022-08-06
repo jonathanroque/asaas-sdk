@@ -10,6 +10,8 @@ use CodePhix\Asaas\Notificacao;
 use CodePhix\Asaas\Transferencia;
 use CodePhix\Asaas\Webhook;
 
+use Dotenv\Dotenv;
+
 class Asaas {
     
     public $cidade;
@@ -33,8 +35,17 @@ class Asaas {
 
     private $connection;
     
-    public function __construct($token, $status = false) {
-        $this->connection = new Connection($token, ((!empty($status)) ? $status : 'producao'));
+    private $token;
+
+    public $dotenv;
+
+    public function __construct($status = false) {
+
+        $this->dotenv = Dotenv::createImmutable(__DIR__);
+
+        $this->token = $_ENV['ASAAS_KEY'];
+
+        $this->connection = new Connection($this->token, ((!empty($status)) ? $status : 'producao'));
 
         $this->assinatura  = new Assinatura($this->connection);
         $this->cidade = new Cidades($this->connection);
