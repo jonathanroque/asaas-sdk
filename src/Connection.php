@@ -1,6 +1,6 @@
 <?php
 
-namespace CodePhix\Asaas;
+namespace sourcejonathan\Asaas;
 
 use stdClass;
 use GuzzleHttp\Client;

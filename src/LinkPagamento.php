@@ -1,8 +1,8 @@
 <?php
 
-namespace CodePhix\Asaas;
+namespace sourcejonathan\Asaas;
 
-use CodePhix\Asaas\Connection;
+use sourcejonathan\Asaas\Connection;
 use \Exception;
 
 class LinkPagamento {

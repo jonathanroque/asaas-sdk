@@ -1,14 +1,14 @@
 <?php
 
-namespace CodePhix\Asaas;
+namespace sourcejonathan\Asaas;
 
-use CodePhix\Asaas\Assinatura;
-use CodePhix\Asaas\Cliente;
-use CodePhix\Asaas\Cobranca;
-use CodePhix\Asaas\Extrato;
-use CodePhix\Asaas\Notificacao;
-use CodePhix\Asaas\Transferencia;
-use CodePhix\Asaas\Webhook;
+use sourcejonathan\Asaas\Assinatura;
+use sourcejonathan\Asaas\Cliente;
+use sourcejonathan\Asaas\Cobranca;
+use sourcejonathan\Asaas\Extrato;
+use sourcejonathan\Asaas\Notificacao;
+use sourcejonathan\Asaas\Transferencia;
+use sourcejonathan\Asaas\Webhook;
 
 use Dotenv\Dotenv;
 

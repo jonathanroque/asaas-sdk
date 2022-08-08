@@ -1,9 +1,9 @@
 <?php
 
-namespace CodePhix\Asaas;
+namespace sourcejonathan\Asaas;
 
-use CodePhix\Asaas\Connection;
-use CodePhix\Asaas\Exceptions\ClienteException;
+use sourcejonathan\Asaas\Connection;
+use sourcejonathan\Asaas\Exceptions\ClienteException;
 use Exception;
 
 /**

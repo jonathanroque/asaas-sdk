@@ -1,15 +1,18 @@
 {
-  "name": "codephix/asaas-sdk",
+  "name": "sourcejonathan/asaaslib",
   "type"       : "library",
-  "description": "Asaas.com PHP API Wrapper",
-  "keywords"   : ["Asaas", "API", "Payment SaaS", "Credit Card", "Boleto"],
-  "homepage": "http://www.codephix.com",
+  "description": "Asaas.com PHP API Wrapper Library",
+  "keywords"   : ["Asaas", "API", "Payment SaaS", "Credit Card", "Boleto", "PIX"],
   "license": "MIT",
   "authors": [
     {
       "name": "Max Alex",
       "email": "contato@codephix.com",
       "homepage": "https://www.codephix.com"
+    },
+    {
+      "name": "Jonathan Santos",
+      "email": "jonathanrsantos@gmail.com"      
     }
   ],
   "require": {
@@ -19,7 +22,7 @@
   },
   "autoload": {
     "psr-4": {
-      "CodePhix\\Asaas\\": "src"
+      "sourcejonathan\\Asaas\\": "src"
     }
   }
 }
